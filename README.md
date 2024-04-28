@@ -4,8 +4,8 @@ This project consists of two Python scripts that enable remote command execution
 
 ## Components
 
-1. **Listener**: This Python script waits for incoming connections and allows for remote command execution, file downloads, uploads, and system persistence setup.
-2. **Backdoor**: This Python script connects to the listener and executes received commands, including file operations and system commands.
+1. **Listener.py**: This Python script waits for incoming connections and allows for remote command execution, file downloads, uploads, and system persistence setup.
+2. **Reverse_Backdoor.py**: This Python script connects to the listener and executes received commands, including file operations and system commands.
 
 ## Features
 

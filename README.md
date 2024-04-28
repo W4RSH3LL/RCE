@@ -1,4 +1,5 @@
-/imgs/logo.jpg
+![logo](https://github.com/W4RSH3LL/RCE/assets/129652925/19d137f7-9558-48d1-94a0-dbd03698cabf)
+
 # Remote Command Execution Tool
 
 This project consists of two Python scripts that enable remote command execution through a backdoor communication mechanism. The listener script sets up a server that waits for incoming connections from the backdoor client. Once a connection is established, various commands can be executed remotely, and files can be uploaded or downloaded.

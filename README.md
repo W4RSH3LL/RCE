@@ -17,6 +17,17 @@ It is only the first version of this project. It is very buggy, and it still nee
 - **File Upload/Download**: Transfer files to and from the connected client.
 - **Persistent Access**: Setup commands to maintain persistence on the client system.
 
+| Library     | Description                                                                          |
+|-------------|--------------------------------------------------------------------------------------|
+| `socket`    | Provides low-level networking interface to set up listening server and client sockets. |
+| `json`      | Used to encode and decode data into a lightweight data interchange format.            |
+| `base64`    | Encodes and decodes binary data to ASCII strings for easy transmission over networks. |
+| `subprocess`| Used to execute system commands and retrieve their outputs.                          |
+| `os`        | Provides a way to use operating system dependent functionality like reading or writing to a file system. |
+| `sys`       | Provides access to some variables used or maintained by the interpreter and to functions that interact strongly with the interpreter. |
+| `shutil`    | Offers high-level file operations, particularly file copying and removal.             |
+
+
 ## Usage
 
 ### Setting up the Listener

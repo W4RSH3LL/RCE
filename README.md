@@ -58,12 +58,16 @@ python3 reverse_backdoor.py
 ```
 
 ## Commands
-- `upload <path>`: Uploads a file to the connected client.
-- `download <path>`: Downloads a file from the connected client.
-- `persist <path>`: Sets up persistence on the client using the provided path for the executable.
+- `upload <path>`: Uploads a file to the connected client. (Not working properly yet)
+- `download <path>`: Downloads a file from the connected client. (Not working properly yet)
+- `persist <path>`: Sets up persistence on the client using the provided path for the executable. (Not working properly yet)
 - `cd <directory>`: Changes the current working directory on the client.
 
 ## Screenshots 📷:
+![image](https://github.com/W4RSH3LL/RCE/assets/129652925/066c93ff-ca6f-4f3b-add4-aac0513e845d)
+![image](https://github.com/W4RSH3LL/RCE/assets/129652925/b620803a-5157-4629-9193-16dcfca4928a)
+![image](https://github.com/W4RSH3LL/RCE/assets/129652925/cbfb61d8-9259-4e36-9b55-c2e12f17ce6b)
+![image](https://github.com/W4RSH3LL/RCE/assets/129652925/3d2607a4-96cf-4702-8365-4e95e5b78b88)
 
 
 ## Disclaimer

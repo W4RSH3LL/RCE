@@ -1,4 +1,5 @@
-![logo](https://github.com/W4RSH3LL/RCE/imgs/logo.jpg)
+[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
+![logo](https://github.com/W4RSH3LL/RCE/assets/129652925/317c7ae4-86cd-4ccb-a46f-7617574d9e27)
 
 # Remote Command Execution Tool
 
@@ -19,7 +20,7 @@ It is only the first version of this project. It is very buggy, and it still nee
 - **File Upload/Download**: Transfer files to and from the connected client.
 - **Persistent Access**: Setup commands to maintain persistence on the client system.
 
-## Libraries used
+## Libraries used in this program 📚📗:!
 
 | Library     | Description                                                                          |
 |-------------|--------------------------------------------------------------------------------------|
@@ -31,6 +32,10 @@ It is only the first version of this project. It is very buggy, and it still nee
 | `sys`       | Provides access to some variables used or maintained by the interpreter and to functions that interact strongly with the interpreter. |
 | `shutil`    | Offers high-level file operations, particularly file copying and removal.             |
 
+## Installation ✅:
+- `git clone https://github.com/W4RSH3LL/RCE.git`
+- `cd RCE`
+- `pip install -r requirements.txt`
 
 ## Usage
 
@@ -57,6 +62,9 @@ python3 reverse_backdoor.py
 - download <path>: Downloads a file from the connected client.
 - persist <path>: Sets up persistence on the client using the provided path for the executable.
 - cd <directory>: Changes the current working directory on the client.
+
+## Screenshots 📷:
+
 
 ## Disclaimer
 This tool is meant for educational purposes only. Use it responsibly and only on devices for which you have proper authorization.

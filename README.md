@@ -1,4 +1,4 @@
-![logo](https://github.com/W4RSH3LL/RCE/assets/129652925/19d137f7-9558-48d1-94a0-dbd03698cabf)
+![logo](https://github.com/W4RSH3LL/RCE/imgs/logo.jpg)
 
 # Remote Command Execution Tool
 

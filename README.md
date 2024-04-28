@@ -17,6 +17,8 @@ It is only the first version of this project. It is very buggy, and it still nee
 - **File Upload/Download**: Transfer files to and from the connected client.
 - **Persistent Access**: Setup commands to maintain persistence on the client system.
 
+## Libraries used
+
 | Library     | Description                                                                          |
 |-------------|--------------------------------------------------------------------------------------|
 | `socket`    | Provides low-level networking interface to set up listening server and client sockets. |
